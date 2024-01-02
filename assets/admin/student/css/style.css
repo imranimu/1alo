@@ -1,0 +1,956 @@
+@charset "utf-8";
+.home_work_box {
+    float: left;
+    width: 270px;
+}
+
+.home_document_box {
+    float: right;
+    width: 270px;
+}
+
+
+/*============================================
+			Page
+==============================================*/
+
+
+/*----------notice board page--------*/
+
+.notice_box {
+    width: 882px;
+    margin: 10px auto;
+}
+
+.notice_box h1 {
+    background: url(../images/notice_board_bg.png) no-repeat left top;
+    font-family: 'bebasregular';
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 46px;
+    padding-left: 58px;
+}
+
+.sideNavBox {
+    overflow: hidden;
+    width: auto;
+}
+
+.sideNavBox h4 {
+    background: rgb(64, 116, 13);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(64, 116, 13, 1)), color-stop(2%, rgba(151, 202, 102, 1)), color-stop(3%, rgba(109, 180, 40, 1)), color-stop(27%, rgba(99, 166, 37, 1)), color-stop(66%, rgba(73, 128, 29, 1)), color-stop(90%, rgba(59, 112, 25, 1)), color-stop(97%, rgba(57, 110, 22, 1)), color-stop(98%, rgba(63, 116, 13, 1)), color-stop(100%, rgba(64, 116, 13, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#40740d', endColorstr='#40740d', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #40740d;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    padding: 8px 16px;
+    width: 93%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sideNavBox h4.hover {
+    background: rgb(64, 116, 13);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(64, 116, 13, 1)), color-stop(2%, rgba(63, 116, 13, 1)), color-stop(3%, rgba(57, 110, 22, 1)), color-stop(10%, rgba(59, 112, 25, 1)), color-stop(34%, rgba(73, 128, 29, 1)), color-stop(73%, rgba(99, 166, 37, 1)), color-stop(97%, rgba(109, 180, 40, 1)), color-stop(98%, rgba(151, 202, 102, 1)), color-stop(100%, rgba(64, 116, 13, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#40740d', endColorstr='#40740d', GradientType=0);
+    /* IE6-9 */
+}
+
+.sideNavBox h4.selected {
+    background: rgb(64, 116, 13);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(64, 116, 13, 1)), color-stop(2%, rgba(63, 116, 13, 1)), color-stop(3%, rgba(57, 110, 22, 1)), color-stop(10%, rgba(59, 112, 25, 1)), color-stop(34%, rgba(73, 128, 29, 1)), color-stop(73%, rgba(99, 166, 37, 1)), color-stop(97%, rgba(109, 180, 40, 1)), color-stop(98%, rgba(151, 202, 102, 1)), color-stop(100%, rgba(64, 116, 13, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#40740d', endColorstr='#40740d', GradientType=0);
+    /* IE6-9 */
+}
+
+.sideNavBox h4 span+span.notiearrow:active {
+    background: url(../images/plus.png) no-repeat left bottom;
+}
+
+ul.sideNav {
+    display: none;
+    overflow: hidden;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.notice_top {
+    width: 97%;
+    height: 121px;
+    background: url("../images/notice_top_img.png") no-repeat;
+}
+
+.notice_middle {
+    width: 97%;
+    overflow: hidden;
+    background: url("../images/notice_middle_img.png") repeat-y;
+}
+
+.notice_bottom {
+    width: 97%;
+    min-height: 20px;
+    background: url("../images/notice_bottom_img.png") no-repeat;
+}
+
+
+/*----------Admin page--------------*/
+
+.deshboard_box {
+    background: url("../images/common_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border-radius: 4px;
+    width: auto;
+    padding-bottom: 20px;
+}
+
+.deshboard_box h1 {
+    color: #fff;
+    font-family: "bebasregular";
+    font-size: 20px;
+    line-height: 46px;
+    margin-top: 0px;
+    padding-left: 24px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.deshboard_common_box {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.bank_info {
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    width: 870px;
+}
+
+.bank_inner {
+    margin: 5px auto 0;
+    overflow: hidden;
+    width: 585px;
+}
+
+.bank_row {
+    overflow: hidden;
+    padding: 5px;
+    width: 560px;
+}
+
+.bank_label {
+    color: #fff;
+    float: left;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 33px;
+    text-align: right;
+    width: 129px;
+}
+
+.bank_input_row {
+    float: left;
+    padding-left: 15px;
+    width: 384px;
+}
+
+.bank_input {
+    background: url(../images/contact_input_bg.png) repeat-x;
+    border: 1px solid #2b2b2b;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.086) inset;
+    color: #959595;
+    font-family: Tahoma, Geneva, sans-serif;
+    padding: 4px;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+    width: 367px;
+}
+
+.banner_image_txt {
+    display: block;
+    margin-top: 2px;
+}
+
+.bank_row {
+    overflow: hidden;
+    padding: 5px;
+    width: 560px;
+}
+
+.bank_order_btn {
+    float: right;
+    margin: 8px auto;
+    width: 491px;
+}
+
+.notice_middle_inner {
+    width: 94%;
+    margin: 20px auto;
+}
+
+.notice_middle_inner p {
+    font-family: Calibri;
+    font-size: 28px;
+    text-align: justify;
+    line-height: 32px;
+    color: #fff;
+}
+
+.notice_authority {
+    width: 218px;
+    overflow: hidden;
+    margin-top: 20px;
+    float: right;
+}
+
+.notice_authority p {
+    font-size: 20px;
+    text-align: left;
+    line-height: 22px;
+}
+
+.account_top {
+    width: auto;
+}
+
+.content_box {
+    margin: 15px auto 0;
+    overflow: hidden;
+    width: 368px;
+}
+
+.service_checkbox {
+    float: left;
+    margin-bottom: 6px;
+    width: 167px;
+}
+
+.service_checkbox input {
+    float: left;
+    margin-top: 3px;
+}
+
+.service_checkbox p {
+    color: #fff;
+    float: left;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 0 0 0 5px;
+}
+
+.student_dashboard_left {
+    float: left;
+    width: 570px;
+	background: #ebf5e3;
+}
+
+.student_dashboard_right {
+    border: 1px solid #e2e2e2;
+    box-shadow: 2px 2px 4px -1px #e2e2e2;
+    float: right;
+    width: 570px;
+    border-radius: 4px;
+	background: #ebf5e3;
+}
+
+.student_info_box {
+    width: auto;
+    height: 200px;
+    border-radius: 4px;
+    border: 1px solid #e2e2e2;
+    box-shadow: 2px 2px 4px -1px #e2e2e2;
+}
+
+.piechartinner {
+    float: left;
+    width: 224px;
+}
+
+.sourcebox {
+    width: 100%;
+    margin: 84px 20px 0;
+    overflow: hidden;
+	background: #ebf5e3;
+}
+
+.piechartinner h2 {
+    color: #000;
+    font-size: 19px;
+    padding: 20px 13px 10px;
+    text-transform: uppercase;
+}
+
+.sourcebox li {
+    list-style: none;
+    line-height: 22px;
+    color: #414141;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: url(../images/absent_img.png) no-repeat left 6px;
+    padding-left: 18px;
+    font-family: 'calibri';
+}
+
+.sourcebox li+li {
+    list-style: none;
+    line-height: 22px;
+    color: #414141;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: url(../images/day_left_img.png) no-repeat left 6px;
+    padding-left: 18px;
+    font-family: 'calibri';
+}
+
+.sourcebox li+li+li {
+    list-style: none;
+    line-height: 22px;
+    color: #414141;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: url(../images/green_img.png) no-repeat left 6px;
+    padding-left: 18px;
+    font-family: 'calibri';
+}
+
+.piechart_box {
+    float: right;
+}
+
+.student_img_box {
+    width: 146px;
+    float: left;
+}
+
+.student_img_inner {
+    background: none repeat scroll 0 0 #7f8181;
+    border-radius: 4px;
+    height: 148px;
+    margin: 18px 0 0 4px;
+    width: 142px;
+    overflow: hidden;
+}
+
+.student_img_div {
+    width: 129px;
+    margin: 6px auto;
+}
+
+.student_main_img {
+    width: auto;
+    height: 107px;
+    background: #fff;
+    text-align: center;
+}
+
+.student_id {
+    width: auto;
+    height: 30px;
+    background: #001318;
+}
+
+.student_id p {
+    color: #fffefe;
+    font-family: "calibri";
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 28px;
+}
+
+.student_main_img img {
+    margin-top: 4px;
+}
+
+.student_information_box {
+    float: right;
+    margin: 18px 14px 0 0;
+    overflow: hidden;
+    width: 384px;
+}
+
+.student_information_box h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: right;
+    color: #c3c3c3;
+    line-height: 20px;
+}
+
+.student_infor_inner_box {
+    width: auto;
+    margin-top: 12px;
+}
+
+.student_detail_row {
+    width: auto;
+    overflow: hidden;
+    margin: 4px 0;
+}
+
+.student_lbl {
+    float: left;
+    width: 72px;
+    text-align: right;
+    line-height: 18px;
+    font-size: 14px;
+    color: #000;
+}
+
+.student_lbl_two {
+    color: #000;
+    float: left;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: left;
+    width: 78%;
+}
+
+.student_information_box p {
+    text-align: right;
+    color: #000;
+    font-size: 14px;
+}
+
+.student_information_box p a {
+    color: #000;
+    font-weight: bold;
+}
+
+.student_information_box p a:hover {
+    color: #FF0012;
+}
+
+.common_dashboard_left {
+    border: 1px solid #e2e2e2;
+    box-shadow: 2px 2px 4px -1px #e2e2e2;
+    float: left;
+    width: 570px;
+    border-radius: 4px;
+    /*min-height: 282px;*/
+    font-size: 14px;
+	background: #ebf5e3;
+}
+
+.common_dashboard_left h2 {
+    color: #000;
+    font-size: 20px;
+    padding: 20px 13px 10px;
+    text-transform: uppercase;
+}
+
+.common_dashboard_left p {
+    color: #000;
+    font-size: 14px;
+    margin: 14px 16px 0 0;
+    text-align: right;
+}
+
+.common_dashboard_left p a {
+    color: #000;
+    font-weight: bold;
+}
+
+.common_dashboard_left p a:hover {
+    color: #FF0012;
+}
+
+.common_dashboard_right {
+    border: 1px solid #e2e2e2;
+    box-shadow: 2px 2px 4px -1px #e2e2e2;
+    float: right;
+    width: 570px;
+    border-radius: 4px;
+    /*min-height: 282px;*/
+    font-size: 14px;
+	background: #ebf5e3;
+}
+
+.common_dashboard_right h2 {
+    color: #000;
+    font-size: 20px;
+    padding: 20px 13px 10px;
+    text-transform: uppercase;
+}
+
+.common_dashboard_right p {
+    color: #000;
+    font-size: 14px;
+    line-height: 18px;
+    margin: 12px 16px 0 0;
+    text-align: right;
+}
+
+.common_dashboard_right p a {
+    color: #000;
+    font-weight: bold;
+}
+
+.common_dashboard_right p a:hover {
+    color: #FF0012;
+}
+
+.classroutine_table {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+.classroutine_table tr th {
+    color: #000;
+    padding: 4px;
+    background: #0b1e23;
+}
+
+.classroutine_table tr td {
+    color: #000;
+    padding: 4px;
+    background: #0b1e23;
+}
+
+.classroutine_table tr td a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.notice_inner_mess {
+    padding: 24px 46px 15px;
+    width: auto;
+}
+
+.notice_inner_mess p {
+    font-size: 16px;
+    color: #000;
+    text-align: left;
+    line-height: 20px;
+}
+
+
+/*--------- routine--------*/
+
+.routine_common_box {
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #e2e2e2;
+    box-shadow: 2px 2px 4px -1px #e2e2e2;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+
+.student_routine_table {
+    width: 100%;
+    overflow: hidden;
+    padding: 12px;
+    text-align: center;
+	background: #ebf5e3;
+}
+
+.student_routine_table th {
+    padding: 4px;
+}
+
+.student_routine_table tr td {
+    border: 1px solid #ccc;
+    color: #000;
+    padding: 4px;
+    line-height: 22px;
+}
+
+.student_routine_table th.firsttable {
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+.student_routine_table th.secondtable {
+    width: 88px;
+    color: #000;
+    border: 1px solid #ccc;
+    text-align: center;
+    ;
+}
+
+.student_routine_table td.firsttable {
+    width: 88px;
+    height: 50px;
+}
+
+.breakTime {
+    background: url(../images/break_time_img.png) no-repeat;
+    height: 210px;
+    margin-left: 34px;
+    width: 25px;
+}
+
+.student_account_table {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.student_account_table tr th {
+    background: none repeat scroll 0 0 #094D5E;
+    border-left: 1px solid #45626e;
+    border-top: 1px solid #45626e;
+    border-bottom: 1px solid #45626e;
+    color: #ccc;
+    padding: 8px 6px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.student_account_table tr td {
+    border-left: 1px solid #45626e;
+    border-bottom: 1px solid #45626e;
+    color: #ccc;
+    padding: 8px 6px;
+    text-align: center;
+    background: #05252d;
+}
+
+.student_account_table tr:hover {
+    background: #023644;
+}
+
+#message-green {
+    margin-bottom: 5px;
+}
+
+.green-left {
+    background: url(../images/message_green.gif) no-repeat scroll left top;
+    color: #6da827;
+    font-family: Tahoma;
+    font-weight: bold;
+    line-height: 12px;
+    padding: 0 0 0 20px;
+    border-radius: 4px 0px 0px 4px;
+}
+
+.green-left a {
+    color: #6da827;
+    font-family: Tahoma;
+    font-weight: normal;
+    text-decoration: underline;
+}
+
+.green-right a {
+    cursor: pointer;
+}
+
+.backbutton {
+    overflow: hidden;
+    width: auto;
+}
+
+a.back_btn {
+    background: url("../images/back_button.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    float: left;
+    height: 28px;
+    margin-left: 10px;
+    width: 105px;
+}
+
+
+/*---------student prodile----------*/
+
+.student_profile_left {
+    float: left;
+    width: 160px;
+}
+
+.student_profile_right {
+    width: 994px;
+    float: right;
+    overflow: hidden;
+}
+
+.student_profile_right_box {
+    border: 1px solid #e2e2e2;
+    box-shadow: 2px 2px 4px -1px #e2e2e2;
+    border-radius: 4px;
+    margin-top: 20px;
+    width: auto;
+	background: #ebf5e3;
+}
+
+.student_profile_inner {
+    margin: 12px auto 10px;
+    width: 848px;
+}
+
+.student_profile_inner h2 {
+    color: #000;
+    font-size: 22px;
+    line-height: 32px;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.student_inner_box {
+    width: auto;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+.student_inner_left {
+    float: left;
+    width: 380px;
+}
+
+.student_inner_right {
+    float: right;
+    width: 380px;
+}
+
+.student_row {
+    width: auto;
+    overflow: hidden;
+    margin-top: 4px;
+}
+
+.student_profilelbl {
+    color: #000;
+    float: left;
+    font-size: 14px;
+    line-height: 26px;
+    text-align: left;
+}
+
+.student_input_box {
+    background: none repeat scroll 0 0 #fff;
+    border-radius: 4px;
+    float: right;
+    padding: 4px;
+    width: 228px;
+    border: 1px solid #ccc;
+}
+
+.student_lbl_show {
+    color: #000;
+    float: left;
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 4px;
+    text-align: left;
+    width: 150px;
+}
+
+
+/*
+new css
+*/
+
+.table-box {
+    width: 100%;
+    overflow: hidden;
+    padding: 0 15px;
+}
+
+table thead tr th p {
+    color: #000;
+    text-align: center;
+}
+
+
+/*----------notice board page--------*/
+
+.notice_box {
+    width: 882px;
+    margin: 10px auto;
+}
+
+.notice_box h1 {
+    background: url(../images/notice_board_bg.png) no-repeat left top;
+    font-family: 'bebasregular';
+    font-size: 24px;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: left;
+    line-height: 46px;
+    padding-left: 58px;
+}
+
+.sideNavBox {
+    overflow: hidden;
+    width: auto;
+}
+
+.sideNavBox h4 {
+    background: rgb(64, 116, 13);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(64, 116, 13, 1)), color-stop(2%, rgba(151, 202, 102, 1)), color-stop(3%, rgba(109, 180, 40, 1)), color-stop(27%, rgba(99, 166, 37, 1)), color-stop(66%, rgba(73, 128, 29, 1)), color-stop(90%, rgba(59, 112, 25, 1)), color-stop(97%, rgba(57, 110, 22, 1)), color-stop(98%, rgba(63, 116, 13, 1)), color-stop(100%, rgba(64, 116, 13, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(64, 116, 13, 1) 0%, rgba(151, 202, 102, 1) 2%, rgba(109, 180, 40, 1) 3%, rgba(99, 166, 37, 1) 27%, rgba(73, 128, 29, 1) 66%, rgba(59, 112, 25, 1) 90%, rgba(57, 110, 22, 1) 97%, rgba(63, 116, 13, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#40740d', endColorstr='#40740d', GradientType=0);
+    /* IE6-9 */
+    border: 1px solid #40740d;
+    border-radius: 5px;
+    margin-bottom: 6px;
+    overflow: hidden;
+    padding: 8px 16px;
+    width: 97%;
+    color: #fff;
+    cursor: pointer;
+}
+
+.sideNavBox h4.hover {
+    background: rgb(64, 116, 13);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(64, 116, 13, 1)), color-stop(2%, rgba(63, 116, 13, 1)), color-stop(3%, rgba(57, 110, 22, 1)), color-stop(10%, rgba(59, 112, 25, 1)), color-stop(34%, rgba(73, 128, 29, 1)), color-stop(73%, rgba(99, 166, 37, 1)), color-stop(97%, rgba(109, 180, 40, 1)), color-stop(98%, rgba(151, 202, 102, 1)), color-stop(100%, rgba(64, 116, 13, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#40740d', endColorstr='#40740d', GradientType=0);
+    /* IE6-9 */
+}
+
+.sideNavBox h4.selected {
+    background: rgb(64, 116, 13);
+    /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(64, 116, 13, 1)), color-stop(2%, rgba(63, 116, 13, 1)), color-stop(3%, rgba(57, 110, 22, 1)), color-stop(10%, rgba(59, 112, 25, 1)), color-stop(34%, rgba(73, 128, 29, 1)), color-stop(73%, rgba(99, 166, 37, 1)), color-stop(97%, rgba(109, 180, 40, 1)), color-stop(98%, rgba(151, 202, 102, 1)), color-stop(100%, rgba(64, 116, 13, 1)));
+    /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* Opera 11.10+ */
+    background: -ms-linear-gradient(top, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* IE10+ */
+    background: linear-gradient(to bottom, rgba(64, 116, 13, 1) 0%, rgba(63, 116, 13, 1) 2%, rgba(57, 110, 22, 1) 3%, rgba(59, 112, 25, 1) 10%, rgba(73, 128, 29, 1) 34%, rgba(99, 166, 37, 1) 73%, rgba(109, 180, 40, 1) 97%, rgba(151, 202, 102, 1) 98%, rgba(64, 116, 13, 1) 100%);
+    /* W3C */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#40740d', endColorstr='#40740d', GradientType=0);
+    /* IE6-9 */
+}
+
+.sideNavBox h4 span+span.notiearrow:active {
+    background: url(../images/plus.png) no-repeat left bottom;
+}
+
+ul.sideNav {
+    display: none;
+    overflow: hidden;
+    width: auto;
+    margin-bottom: 10px;
+}
+
+.notice_top {
+    width: 97%;
+    height: 121px;
+    background: url("../images/notice_top_img.png") no-repeat;
+}
+
+.notice_middle {
+    width: 97%;
+    overflow: hidden;
+    background: url("../images/notice_middle_img.png") repeat-y;
+}
+
+.notice_bottom {
+    width: 97%;
+    min-height: 20px;
+    background: url("../images/notice_bottom_img.png") no-repeat;
+}
+
+
+/*------login---------*/
+
+
+/*----------notice board page--------*/
+
+.common_dashboard_left .table-bordered {
+    border: 1px solid #aeb6a7;
+}
+
+.common_dashboard_left .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border-bottom-width: 0px;
+}
+
+.common_dashboard_left .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #aeb6a7;
+}
+
+.common_dashboard_left, common_dashboard_right .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #aeb6a7;
+}
+
+.common_dashboard_right .table-bordered {
+    border: 1px solid #aeb6a7;
+}
+
+.common_dashboard_right .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border-bottom-width: 0px;
+}
+
+.common_dashboard_right .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #aeb6a7;
+}
+
+.common_dashboard_right, common_dashboard_right .table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #aeb6a7;
+}
+
+#table-box_wrapper {
+    background: #ebf5e3;
+    padding: 16px;
+}
+
+
+

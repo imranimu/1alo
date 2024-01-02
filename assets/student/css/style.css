@@ -1,0 +1,235 @@
+body {
+	background: #f2f2f2;
+}
+
+.navbar-area-1 {
+	border-bottom: 1px solid #ccc;
+}
+
+.pd-bottom-120 {
+	margin-top: 50px;
+}
+		
+.account-cfoinfo.clearfix {
+    background: #fff;
+    padding: 10px;
+}
+
+.contact-details {
+    background: #fff;
+    padding: 1em;
+    margin-bottom: 15px;
+}
+
+.account-cfoinfo .cfoaccount {
+    background: #fff;
+}
+
+.list-inline, .list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+
+.cfoaccount ul li, .cfoaccount ul li a {
+    display: inline-block;
+    width: 100%;
+}
+
+.cfoaccount ul li:first-child a {
+    border-top: 6px solid #0a1851;
+}
+
+.cfoaccount ul li a {
+    border-bottom: 1px solid #aaa;
+    padding: 12px 10px;
+    text-decoration: none;
+    color: #535151;
+    font-size: 16px;
+    outline: 0;
+}
+
+.cfoaccount ul li a .fa {
+    font-size: 17px;
+    padding-right: 6px;
+    color: #0a1851;
+}
+
+.cfoaccount ul li:last-child a {
+    border-bottom: 0;
+}
+
+.contact-details.myaccount-contact>h2 {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+.contact-details.myaccount-contact>h2 {
+    float: left;
+    width: 100%;
+    text-align: left;
+}
+
+.contact-details h2 {
+    margin: 0 0 10px;
+    font-size: 21px;
+    border-bottom: 1px dotted #ededed;
+    padding: 10px;
+    color: #535151;
+}
+
+.contact-details .account-table .commonname-td {
+    width: 25%;
+    text-align: left;
+    border: 0;
+    background: #fff;
+    padding: 1px 5px;
+    font-size: 15px;
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    line-height: 1.42857143;
+    vertical-align: middle;
+}
+
+.contact-details .account-table .nameshow-td {
+    width: 75%;
+    text-align: left;
+    border: 0;
+    background: #fff;
+    padding: 1px 5px;
+    font-size: 15px;
+}
+
+.contact-details .account-table .commonname-td {
+    width: 25%;
+    text-align: left;
+    border: 0;
+    background: #fff;
+    padding: 1px 5px;
+    font-size: 15px;
+}
+
+.contact-details .account-table .nameshow-td {
+    width: 75%;
+    text-align: left;
+    border: 0;
+    background: #fff;
+    padding: 1px 5px;
+    font-size: 15px;
+}
+
+.contact-details .account-table .nameshow-td a {
+    color: #0a1851;
+    text-decoration: underline;
+    outline: 0;
+}
+
+.contact-details.myaccount-contact>h2 a {
+    float: right;
+    text-align: right;
+    color: #0a1851;
+    font-weight: 300;
+    text-decoration: underline;
+    outline: 0;
+}
+
+/*NEW CSS */
+.home-grids a {
+    text-decoration: none;
+    color: #fff;
+}
+.home-grids .home-grid {
+    padding: 20px 10px;
+    border: 2px solid #e7e7e7;
+    text-align: center;
+    transition: box-shadow 0.5s;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0.3rem 1rem rgba(0,0,0,.10);
+    margin-bottom: 20px;
+}  
+.home-grids .home-grid i {
+    font-size: 24px;
+    vertical-align: middle;
+    color: #3d3d3d;
+}
+.home-grids .home-grid h6 {
+    font-size: 18px;
+    color: #3d3d3d;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0px;
+}
+.cfoaccount ul li.active{
+    background: #c4e2f3;
+}
+
+body .progress{
+    height: 1.5rem;
+    position: relative;
+    overflow: inherit;
+}
+
+body .progress-bar{
+    background-color: #087608;   
+}
+
+body .progressLabel {
+    position: absolute;
+    color: #000;
+    left: 1px;
+    bottom: -27px;
+}
+
+body ul#main-navigation{
+    border-bottom: 2px solid #0A1851;
+}
+body #main-navigation li{
+    display: inline-block;
+    margin: 0 5px;
+}
+
+body #main-navigation li a {
+    background: #0A1851;
+    padding: 9px 15px;
+    color: #fff;
+    display: block;
+    border-radius: 10px 10px 0px 0px;
+}
+
+body #main-navigation li a:hover, body #main-navigation li a.active{
+    background: #218838; 
+}
+
+body .btn{
+    white-space: inherit;
+}
+
+body .btn.btn-sm {
+    padding: 10px 15px;
+    height: auto;
+    line-height: normal;
+}
+
+.with_bg_page img,.with_bg_page iframe{
+    width: 100%;
+}
+ 
+
+@media (max-width: 767px){
+    body #main-navigation li a{
+        font-size: 11px;
+        padding: 7px 10px;
+    }
+    body #main-navigation li{
+        margin-right: 0px;
+        margin-left: -3px;
+    }
+}
